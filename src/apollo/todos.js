@@ -1,13 +1,13 @@
 import { gql } from '@apollo/client';
 
 export const ALL_TODO = gql`
-  query AllTodos {
-    todos: allTodos {
-      id
-      title
-      completed
-    }
+  query AllTodos{
+  todos:allTodos{
+    id
+    title
+    completed
   }
+}
 `;
 
 export const ADD_TODO = gql`
